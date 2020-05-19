@@ -207,3 +207,5 @@ with the VIVI driver and must be changed for your specific video capture
 device. These values also work well in case there in no actual video
 capture device.
 
+Test on Hisi:
+./uvc-gadget -u /dev/video0 -d -r 1 -s 1

@@ -36,7 +36,10 @@
 #include <linux/usb/video.h>
 #include <linux/videodev2.h>
 
-#include "../drivers/usb/gadget/function/uvc.h"
+//#include "/home/jiaosong/workspace/src/github/linux/drivers/usb/gadget/function/uvc.h"
+#include "../include/uapi/linux/usb/g_uvc.h"
+#define UVC_INTF_CONTROL   0
+#define UVC_INTF_STREAMING   1
 
 /* Enable debug prints. */
 #undef ENABLE_BUFFER_DEBUG
